@@ -86,15 +86,6 @@ img {
   border-radius: 8px;
 }
 
-h2 {
-  font-size: 20px;
-  font-weight: 500;
-}
-
-p {
-  font-size: 14px;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

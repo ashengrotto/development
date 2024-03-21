@@ -23,7 +23,7 @@ const App = () => {
   
 
   return (
-    <div className="perfumeList">
+    <div className="perfume-list">
         <h1>Browse Perfumes</h1>
         <FilteredList perfumes={perfumes} onClick={addToCollection} collection="Add to Collection" />
 
