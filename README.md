@@ -1,4 +1,4 @@
-# development
+# Development
 
 [Link to Deployed Page on Vercel](https://development-3eyk.vercel.app/)
 
