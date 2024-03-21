@@ -8,7 +8,8 @@ const PerfumeCard = ({ perfume, onClick, collection }) => {
     return (
         <div className="perfume-card">
             <img src={perfume.image} alt={perfume.name} />
-            <h3>{perfume.name}</h3>
+            <h2>{perfume.name}</h2>
+            <h3>{perfume.house}</h3>
             <p>{perfume.category}</p>
             <p>${perfume.price} / {perfume.size} ml</p>
             <button onClick={addToCollection}>{collection}</button>
