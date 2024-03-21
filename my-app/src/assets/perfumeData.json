@@ -1,0 +1,112 @@
+[
+    {
+        "id": 0,
+        "name": "Air",
+        "house": "Air Company",
+        "image": "images/air.png",
+        "price": 220,
+        "category": "Amber",
+        "size": 50
+    },
+    {
+        "id": 1,
+        "name": "Black Opium",
+        "house": "Yves Saint Laurent",
+        "image": "images/black-opium.png",
+        "price": 160,
+        "category": "Gourmand",
+        "size": 90
+    },
+    {
+        "id": 2,
+        "name": "Her",
+        "house": "Burberry",
+        "image": "images/burberry-her.png",
+        "price": 168,
+        "category": "Gourmand",
+        "size": 100
+    },
+    {
+        "id": 3,
+        "name": "Cloud",
+        "house": "Ariana Grande",
+        "image": "images/cloud.png",
+        "price": 68,
+        "category": "Gourmand",
+        "size": 100
+    },
+    {
+        "id": 4,
+        "name": "You",
+        "house": "Glossier",
+        "image": "images/glossier-you.png",
+        "price": 104,
+        "category": "Floral",
+        "size": 100
+    },
+    {
+        "id": 5,
+        "name": "Good Girl",
+        "house": "Carolina Herrera",
+        "image": "images/good-girl.png",
+        "price": 112,
+        "category": "Floral",
+        "size": 50
+    },
+    {
+        "id": 6,
+        "name": "Lost Cherry",
+        "house": "Tom Ford",
+        "image": "images/lost-cherry.png",
+        "price": 395,
+        "category": "Gourmand",
+        "size": 50
+    },
+    {
+        "id": 7,
+        "name": "Miss Dior",
+        "house": "Dior",
+        "image": "images/miss-dior.png",
+        "price": 165,
+        "category": "Floral",
+        "size": 100
+    },
+    {
+        "id": 8,
+        "name": "N°5",
+        "house": "Chanel",
+        "image": "images/no5-chanel.png",
+        "price": 172,
+        "category": "Floral",
+        "size": 100
+    },
+    {
+        "id": 9,
+        "name": "Shalimar",
+        "house": "Guerlain",
+        "image": "images/shalimar.png",
+        "price": 130,
+        "category": "Amber",
+        "size": 50
+    },
+    {
+        "id": 10,
+        "name": "Viva la Juicy",
+        "house": "Juicy Couture",
+        "image": "images/viva-la-juicy.png",
+        "price": 115,
+        "type": "Floral",
+        "size": 100
+    },
+    {
+        "id": 11,
+        "name": "Yellow Diamond",
+        "house": "Versace",
+        "image": "images/yellow-diamond.png",
+        "price": 155,
+        "category": "Floral",
+        "size": 200
+    }
+  ]
+
+  

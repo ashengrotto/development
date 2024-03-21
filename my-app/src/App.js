@@ -1,25 +1,49 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import React, { useState } from 'react';
+import FilteredList from './components/FilteredList';
+import perfumeData from './assets/perfumeData.json';
+ import PerfumeCard from "./components/PerfumeCard";
 
-function App() {
+const App = () => {
+    const [perfumes] = useState(perfumeData);
+    const [collection, setCollection] = useState([]);
+
+    const addToCollection = (perfume) => {
+        const alreadyInCollection = collection.some(item => item.id === perfume.id);
+        
+        if (!alreadyInCollection) {
+            setCollection([...collection, perfume]);
+        }
+    };
+
+    const removeFromCollection = (perfumeId) => {
+      const updatedCollection = collection.filter(perfume => perfume.id !== perfumeId);
+      setCollection(updatedCollection);
+  };
+  
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <div className="perfumeList">
+        <h1>Browse Perfumes</h1>
+        <FilteredList perfumes={perfumes} onClick={addToCollection} collection="Add to Collection" />
 
+        <div className="collection">
+        <h1>My Collection ({collection.length} items)</h1>
+            <div className="collection-gallery">
+
+            {collection.map(perfume => (
+                <PerfumeCard
+                    key={perfume.id}
+                    perfume={perfume}
+                    onClick={() => removeFromCollection(perfume.id)}
+                    collection="Remove from Collection"
+                />
+            ))}
+        </div>
+      </div>
+    </div>
+    );
+};
+   
 export default App;
+

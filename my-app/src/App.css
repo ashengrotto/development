@@ -7,6 +7,94 @@
   pointer-events: none;
 }
 
+.main {
+  width: 100%;
+}
+
+body {
+  background-color: #ffd1dc;
+  font-family: "Times New Roman";
+}
+
+h1, h2, h3, p {
+  color: darkslategrey;
+  text-align: center;
+}
+
+.perfume-card {
+  width: 200px;
+  height: auto; 
+  background-color: white;
+  border-radius: 10px;
+  margin: 10px; 
+  padding: 10px; 
+  box-shadow: 0 2px 4px #e75480; 
+}
+
+.perfume-cards {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-evenly;
+}
+
+.perfume-card img {
+  width: 100%; 
+  height: auto; 
+}
+
+.perfume-card button {
+  display: block; 
+  width: 100%;
+  padding: 5px; 
+  border: none; 
+  border-radius: 5px; 
+  background-color: #e75480; 
+  color: white; 
+  cursor: pointer; 
+}
+
+.perfume-card button:hover {
+  background-color: #FFD1DC;
+  color: darkslategray; 
+}
+
+.filtered-list {
+  text-align: center;
+}
+
+.filter-container, .sort-container, .reset-container {
+  display: inline-block; 
+  margin-right: 2vw; 
+}
+
+.filter-container label, .sort-container label {
+  margin-right: 0.5vw;
+}
+
+.collection {
+  display: flex;
+  flex-direction: column;
+}
+
+.collection-gallery {
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+img {
+  width: 250px;
+  border-radius: 8px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+p {
+  font-size: 14px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
