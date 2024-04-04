@@ -35,7 +35,7 @@ const FilteredList = ({ perfumes, onClick, collection }) => {
     return (
         <div className="filtered-list">
             <div className="filter-container">
-                <label htmlFor="filterType">Filter by Category:</label>
+                <label htmlFor="filterType">Filter by Scent Category:</label>
                 <select id="filterType" value={filterType} onChange={handleFilterChange}>
                     <option value="">All</option>
                     <option value="Amber">Amber</option>
