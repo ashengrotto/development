@@ -2,7 +2,7 @@
 
 [Link to Deployed Page on Vercel](https://development-3eyk.vercel.app/)
 
-NOTE: Please see PDF files in the repo for link to hand-in webpage.
+NOTE: Please see PDF file in the repo for link to hand-in webpage.
 
 # Getting Started with Create React App
 
